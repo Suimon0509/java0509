@@ -37,7 +37,7 @@ public class HomeWorkApp  {
        }
 
      }
-    private static void compareNumbers() {
+    public static void compareNumbers() {
          int  a = 20, b = 25;
          if (a >= b){
              System.out.println("a >= b");
