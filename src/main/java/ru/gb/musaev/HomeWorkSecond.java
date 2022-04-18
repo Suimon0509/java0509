@@ -3,7 +3,9 @@
     public class HomeWorkSecond {
         public static void main(String[] args) {
             myFirstMethod();
-              secondTesk(-5);
+            secondTesk(-5);
+            thirdMethodTesk(5);
+
         }
 
         public static int myFirstMethod() {
@@ -19,6 +21,11 @@
             } else {
                 System.out.println("Положительное");
             }
+        }
+        public static int thirdMethodTesk(int a){
+            boolean i =  (a <= 0);
+            System.out.println(i);
+            return a;
         }
 
 
