@@ -6,6 +6,7 @@
             secondTesk(-5);
             thirdMethodTesk(5);
             myFourthHomeWork();
+            methodFifthTesk (2022);
         }
 
         public static int myFirstMethod() {
@@ -33,6 +34,16 @@
 
             for (int i = 0; i < 6; i++) System.out.println("GeekBrains");
         }
+        public static void methodFifthTesk (int year){
+            if (year % 4 ==0 || year % 100 == 0 && year % 400 == 0) {
+                System.out.println( "високосный");
+            }  else {
+                System.out.println(" не високосный");
+            }
+
+
+        }
+
 
 
         }
