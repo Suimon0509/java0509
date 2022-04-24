@@ -2,15 +2,14 @@
 
     public class HomeWorkSecond {
         public static void main(String[] args) {
-            myFirstMethod();
+            myFirstMethod(6,9);
             secondTesk(-5);
             thirdMethodTesk(5);
             myFourthHomeWork();
             methodFifthTesk (2022);
         }
 
-        public static int myFirstMethod() {
-            int a = 6, b = 9;
+        public static int myFirstMethod(int a, int a) {
             int c = a + b;
             boolean i = (c >= 10 && c <= 20);
             System.out.println(i);
@@ -42,7 +41,9 @@
             }
 
 
+
         }
+
 
 
 
