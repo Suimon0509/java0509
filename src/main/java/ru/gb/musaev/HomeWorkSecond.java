@@ -9,7 +9,7 @@
             methodFifthTesk (2022);
         }
 
-        public static int myFirstMethod(int a, int a) {
+        public static int myFirstMethod(int a, int b) {
             int c = a + b;
             boolean i = (c >= 10 && c <= 20);
             System.out.println(i);
