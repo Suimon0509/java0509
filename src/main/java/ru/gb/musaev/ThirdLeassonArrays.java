@@ -11,6 +11,8 @@ import java.util.Arrays;
             wTbC();
             tskLenInitialValue(5, 5);
             teskMaxMin();
+            //cB(new int[]   {1, 2 ,3 ,2 ,89 ,6 ,26 ,8 ,12});
+
 
         }
             public static void teskFirstArray() {
@@ -64,16 +66,29 @@ import java.util.Arrays;
                      int x[] = new int[len];
                         for (int i = 0; i < x.length; i++){
                             x[i] = initialValue;
-                            System.out.println(x[i] + "  ");
+
                         }
-                            System.out.println();
-                        return x;
+                            System.out.println(Arrays.toString(x));
+                          return x;
 
             }
             public static void teskMaxMin() {
+                    int[] f =  {4, 10, 6, 70, 20};
+                         int max = f[0];
+                         int min = f[0];
+                             for (int i = 0; i < f.length; i++){
+                                 if(f[i] > max){
+                                     max = f[i];
+                                 } if(f[i] < min){
+                                     min = f[i];
+                                 }
 
+                             }
+                                System.out.println(min + " " + max);
 
             }
+
+
 
 
 
