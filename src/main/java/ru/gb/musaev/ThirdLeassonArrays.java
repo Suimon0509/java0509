@@ -9,10 +9,11 @@ import java.util.Arrays;
             teskSecond100();
             mR();
             wTbC();
-            tskLenInitialValue(5, 5);
+            tskLenInitialValue(7, 5);
             teskMaxMin();
-            //cB(new int[]   {1, 2 ,3 ,2 ,89 ,6 ,26 ,8 ,12});
-
+           // cB(new int[]   {2, 2, 2, 2, 2, 2});
+           // System.out.println( cB(new int[]   {2, 2, 2, 2, 2, 2}));
+           // shiftArray(new int[]   {1,2,3,4,5,6}, 2);
 
         }
             public static void teskFirstArray() {
@@ -84,9 +85,13 @@ import java.util.Arrays;
                                  }
 
                              }
-                                System.out.println(min + " " + max);
+                             System.out.println( "min = " + min);
+                             System.out.println("max = " + max);
 
             }
+
+
+
 
 
 
