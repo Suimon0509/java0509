@@ -13,7 +13,7 @@ import java.util.Arrays;
             teskMaxMin();
             cB(new int[]   {2, 2, 2, 2, 2, 2});
             System.out.println( cB(new int[]   {2, 2, 2, 2, 2, 2}));
-           // shiftArray(new int[]   {1,2,3,4,5,6}, 2);
+            shiftArray(new int[]   {1,2,3,4,5,6}, 2);
 
         }
             public static void teskFirstArray() {
@@ -104,6 +104,19 @@ import java.util.Arrays;
                             }
                         }
                     return false;
+            }
+
+            public static int[] shiftArray(int[] w, int n) {
+                    n %= w.length;
+                        if (n > 0){
+                            for (int i = w.length - 1; i >= n; i--){
+                                int g = w[i];
+                                w[i] = w[i - n];
+                                w[i - n] = g;
+                            }
+                        }
+                        System.out.println(Arrays.toString(w));
+                    return w;
             }
 
 
