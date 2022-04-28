@@ -11,8 +11,8 @@ import java.util.Arrays;
             wTbC();
             tskLenInitialValue(7, 5);
             teskMaxMin();
-           // cB(new int[]   {2, 2, 2, 2, 2, 2});
-           // System.out.println( cB(new int[]   {2, 2, 2, 2, 2, 2}));
+            cB(new int[]   {2, 2, 2, 2, 2, 2});
+            System.out.println( cB(new int[]   {2, 2, 2, 2, 2, 2}));
            // shiftArray(new int[]   {1,2,3,4,5,6}, 2);
 
         }
@@ -89,6 +89,24 @@ import java.util.Arrays;
                              System.out.println("max = " + max);
 
             }
+
+            public static boolean cB(int[] d){
+                    int sum1 = 0;
+                        for(int i = 0; i < d.length; i++) {
+                            sum1 += d[i];
+                        }
+                            int sum2 = 0;
+                                for (int j = 0; j < d.length; j++) {
+                                 sum2 += d[j];
+
+                            if (sum2 == sum1 / 2) {
+                                return true;
+                            }
+                        }
+                    return false;
+            }
+
+
 
 
 
