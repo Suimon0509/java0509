@@ -6,13 +6,13 @@ import java.util.Arrays;
     public class ThirdLeassonArrays {
         public static void main (String[] args) {
             teskFirstArray();
-            teskSecond100();
-            mR();
-            wTbC();
-            tskLenInitialValue(7, 5);
-            teskMaxMin();
-            cB(new int[]   {2, 2, 2, 2, 2, 2});
-            System.out.println( cB(new int[]   {2, 2, 2, 2, 2, 2}));
+                teskSecond100();
+                    mR();
+                        wTbC();
+                            tskLenInitialValue(7, 5);
+                        teskMaxMin();
+                    cB(new int[]   {2, 2, 2, 2, 2, 2});
+                System.out.println( cB(new int[]   {2, 2, 2, 2, 2, 2}));
             shiftArray(new int[]   {1,2,3,4,5,6}, 2);
 
         }
