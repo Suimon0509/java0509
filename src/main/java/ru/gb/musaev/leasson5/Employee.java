@@ -17,10 +17,10 @@ public class Employee {
         this.age = age;
     }
     public void info(){
-        System.out.println("ФИО:" + fullname + " ," +
-                            "Должность:" + position + " ," +
-                            "Email:" + email + " ," +
-                            "Зарплата:" + salary + " ," +
+        System.out.println("ФИО:" + fullname + ", " +
+                            "Должность:" + position + ", " +
+                            "Email:" + email + ", " +
+                            "Зарплата:" + salary + ", " +
                             "Возраст:" + age  );
     }
     public int getage(){
