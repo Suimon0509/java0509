@@ -7,4 +7,14 @@ public class Employee {
     private String phone;
     private int salary;
     private int age;
+
+    public Employee(fullname, position, email, phone, salary, age) {
+        this.fullname = fullname;
+        this.position = position;
+        this.email = email;
+        this.phone = phone;
+        this.salary = salary;
+        this.age = age;
+    }
 }
+
