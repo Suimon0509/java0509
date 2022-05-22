@@ -10,7 +10,7 @@ public class Leasson5_OOPS {
               new Employee("Русланов Руслан Русланович", "Програмист", "ruslan@a.com", "89779631245", 800000, 41),
       };
         for (Employee employee: employees) {
-            if (employee.getage() > 40){
+            if (employee.getAge() > 40){
                 employee.info();
             }
 

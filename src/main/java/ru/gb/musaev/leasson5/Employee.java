@@ -16,14 +16,16 @@ public class Employee {
         this.salary = salary;
         this.age = age;
     }
+
     public void info(){
         System.out.println("ФИО:" + fullname + ", " +
                             "Должность:" + position + ", " +
                             "Email:" + email + ", " +
+                            "Телефон:" + phone + ", " +
                             "Зарплата:" + salary + ", " +
                             "Возраст:" + age  );
     }
-    public int getage(){
+    public int getAge(){
         return age;
     }
 }
